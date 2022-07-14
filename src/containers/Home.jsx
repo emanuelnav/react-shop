@@ -1,10 +1,13 @@
 import React from "react";
+import Header from "../components/Header";
+import ProductsItems from "./ProductsItems";
 
 const Home = () => {
 	return (
-		<div>
-			<p>Welcome Home!</p>
-		</div>
+		<React.Fragment>
+			<Header />
+			<ProductsItems />
+		</React.Fragment>
 	);
 };
 
